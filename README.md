@@ -123,7 +123,9 @@ git pull
 
 ![](Image/Snipaste_2022-10-15_21-15-41.png)
 
-## 配置gitlab
+## 配置gitlab ssh密钥以及克隆仓库
+
+基本步骤同Github
 
 ![](Image/Snipaste_2022-10-15_21-23-39.png)
 ![](Image/Snipaste_2022-10-15_21-24-10.png)
