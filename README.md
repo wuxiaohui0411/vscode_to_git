@@ -77,6 +77,33 @@ cat ./id_rsa.pub
 ### 创建成功之后,资源内容页可以复制SSH克隆地址
 ![](Image/Snipaste_2022-10-15_20-56-07.png)
 
+### 通过命令行克隆仓库
+
+在.ssh目录下创建config的文件,复制以下内容
+
+![](Image/Snipaste_2022-10-15_21-08-58.png)
+
+![](Image/Snipaste_2022-10-15_21-08-44.png)
+```
+Host *
+  KexAlgorithms +diffie-hellman-group14-sha1
+```
+
+![](Image/Snipaste_2022-10-15_21-11-16.png)
+
+
+### 通过命令行同步本地文件至Web端
+
+```powershell
+git add .
+git commit -m "wuxiaohui"
+git pull
+```
+
+![](Image/Snipaste_2022-10-15_21-21-19.png)
+
+
+
 ## 通过VScode控制台克隆仓库(傻瓜式操作)
 
 ![](Image/Snipaste_2022-10-15_20-59-02.png)
@@ -87,21 +114,19 @@ cat ./id_rsa.pub
 
 
 ![](Image/Snipaste_2022-10-15_21-04-55.png)
-![](Image/Snipaste_2022-10-15_21-08-44.png)
-![](Image/Snipaste_2022-10-15_21-08-58.png)
-![](Image/Snipaste_2022-10-15_21-09-06.png)
-![](Image/Snipaste_2022-10-15_21-11-16.png)
+
+## 通过VScode控制台同步本地文件
+
 ![](Image/Snipaste_2022-10-15_21-12-41.png)
 ![](Image/Snipaste_2022-10-15_21-13-00.png)
 ![](Image/Snipaste_2022-10-15_21-13-13.png)
 
 ![](Image/Snipaste_2022-10-15_21-15-41.png)
-![](Image/Snipaste_2022-10-15_21-17-46.png)
-![](Image/Snipaste_2022-10-15_21-18-24.png)
-![](Image/Snipaste_2022-10-15_21-21-19.png)
+
+## 配置gitlab
+
 ![](Image/Snipaste_2022-10-15_21-23-39.png)
 ![](Image/Snipaste_2022-10-15_21-24-10.png)
-![](Image/Snipaste_2022-10-15_21-26-01.png)
 
 
 
